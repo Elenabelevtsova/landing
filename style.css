@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  background: linear-gradient(180deg, #0066FE 0%, rgba(90, 159, 223, 0.633438) 53.13%, rgba(4, 144, 245, 0.6) 100%);
+  width: 100%;
+}
+
+.navbar {
+  padding-left: 40px;
+  padding-right: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  padding: 15px;
+
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.logo-img {
+  height: 125px;
+}
+
+.main-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 61px;
+  letter-spacing: 0.05em;
+  color: #0557C8;
+  margin-top: 50px;
+  margin-left: 40px;
+  min-width: 3vw;
+}
+
+.under-main {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  margin-top: 45px;
+  margin-left: 40px;
+  width: 80%;
+  min-width: 4vw;
+}
+
+.ux-img {
+  margin-top: 30px;
+  margin-left: -330px;
+  min-width: 2vw;
+}
+
+.enroll {
+  width: 345px;
+  height: 62px;
+  border-radius: 20px;
+  font-family: "Inter";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  background-color: #E72A7A;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.099);
+  margin: 6px;
+}
+
+.enroll:hover {
+  background-color: #b3235f;
+  color: #fff;
+}
+
+.consult {
+  background-color: #72D3FF;
+  color: #fff;
+  width: 340px;
+  height: 62px;
+  border-radius: 20px;
+  font-family: "Inter";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 40px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.086), 0 6px 20px 0 rgba(0, 0, 0, 0.081);
+  margin: 6px;
+
+}
+
+.consult:hover {
+  background-color: #56a7cd;
+  color: #fff;
+}
+
+.content {
+  background-image: url(./images/back.png);
+  width: 100%;
+  margin-top: -150px;
+}
+
+.age {
+  max-width: 220px;
+  border-radius: 20px;
+  align-items: center;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(7.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  box-shadow: 0 4px 14px 0 rgba(17, 117, 232, 0.429);
+
+}
+
+.inscription {
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: 'Inter';
+  font-style: normal;
+  line-height: 50px;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+}
+
+.paragraf {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.get-pink {
+
+  margin: 10px;
+  max-width: 90%;
+  height: 120px;
+  border-radius: 20px;
+  background: rgba(228, 89, 140, 0.645);
+  backdrop-filter: blur(7.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  box-shadow: 7px 7px 30px 0px rgba(228, 89, 139, 0.2);
+  margin-top: 40px;
+}
+
+.get-blue {
+  max-width: 90%;
+  margin: 10px;
+  border-radius: 20px;
+  height: 120px;
+  background: rgba(53, 181, 255, 0.567);
+  backdrop-filter: blur(7.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  box-shadow: 7px 7px 30px 0px rgba(228, 89, 139, 0.2);
+  margin-top: 40px;
+}
+
+h3 {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.want-to-try {
+  width: 100%;
+  height: 430px;
+  background-image: url(./images/want_to_try.png);
+  box-shadow: 7px 7px 30px 0px rgba(133, 113, 120, 0.2);
+}
+
+.want {
+  border-radius: 20px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.515);
+  backdrop-filter: blur(7.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  box-shadow: 0 4px 14px 0 rgba(17, 117, 232, 0.429);
+
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-want {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: center;
+  padding: 35px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.497);
+}
+
+.vl {
+  width: 4px;
+  border-left: 3px solid rgb(0, 0, 0);
+  height: 1000px;
+  min-width: 2px;
+}
+
+.footer-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.slide {
+  max-width: 200px;
+}
+
+.slide-main {
+  border-radius: 20px;
+  align-items: center;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.458);
+  backdrop-filter: blur(7.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  box-shadow: 0 4px 14px 0 rgba(151, 165, 181, 0.519);
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: -18%;
+  width: 80%;
+  max-width: 100%;
+  padding: 10px;
+  z-index: 2;
+}
+
+.panel{
+  border-radius: 20px;
+  align-items: center;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.674);
+  backdrop-filter: blur(7.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  box-shadow: 0 4px 14px 0 rgba(17, 117, 232, 0.429);
+  padding: 25px;
+  margin-left: 10%;
+  width: 90%;
+  z-index: 1;
+}
+.img-slide a{
+
+    transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);
+}
+
+#slide:visited{
+
+  transition: all 4s cubic-bezier(0.080, 1.090, 0.320, 1.275);
+}
+.scroll{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+
+}
