@@ -35,12 +35,6 @@ $(document).ready(function () {
         .css("font-size", "0")
         .css("transform", "translate(-100%,70%)");
     }
-
-    /* Скроллировать фоновые слои с разной скоростью */
-    $(".jumbotron").css(
-      "background-position",
-      "center " + -($(window).scrollTop() * 0.5 + 120) + "px"
-    );
   });
 });
 function myImg() {

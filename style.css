@@ -311,8 +311,6 @@ h3 {
 
   transition: all 4s cubic-bezier(0.080, 1.090, 0.320, 1.275);
 }
-.scroll{
-  overflow-y: scroll;
   scroll-behavior: smooth;
 
 }
