@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 html {
-  scroll-behavior: smooth;
   width: 100%;
 }
 
@@ -130,7 +129,12 @@ html {
 .content {
   background-image: url(./images/back.png);
   width: 100%;
-  margin-top: -150px;
+  margin-top: -180px;
+
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
 }
 
 .age {
@@ -272,35 +276,36 @@ h3 {
 }
 
 .slide-main {
-  border-radius: 20px;
-  align-items: center;
+  border-radius: 15px;
   margin: 20px;
   background: rgba(255, 255, 255, 0.458);
   backdrop-filter: blur(7.5px);
   /* Note: backdrop-filter has minimal browser support */
   box-shadow: 0 4px 14px 0 rgba(151, 165, 181, 0.519);
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  margin-top: -18%;
-  width: 80%;
+  left: 12%;
+  margin-top: -22%;
+  width: 60%;
   max-width: 100%;
-  padding: 10px;
+  padding: 8px;
   z-index: 2;
+  margin-left: 5%;
+height: 9.8vw;
 }
 
 .panel{
   border-radius: 20px;
   align-items: center;
-  margin: 20px;
   background: rgba(255, 255, 255, 0.674);
   backdrop-filter: blur(7.5px);
   /* Note: backdrop-filter has minimal browser support */
   box-shadow: 0 4px 14px 0 rgba(17, 117, 232, 0.429);
-  padding: 25px;
+  padding: 15px;
   margin-left: 10%;
-  width: 90%;
-  z-index: 1;
+  z-index: 6;
+  padding-left: 10%;
+  min-width: 40%;
+  max-width: 75%; 
+  margin-top: 3%;
 }
 .img-slide a{
 
@@ -311,6 +316,26 @@ h3 {
 
   transition: all 4s cubic-bezier(0.080, 1.090, 0.320, 1.275);
 }
-  scroll-behavior: smooth;
-
+.main-one{
+margin-top: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 90%;
+line-height: 27px;
+margin-left: -20px;
+color: #000000;
+line-height: 1em;
 }
+.one{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 80%;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+  margin-left: -20px;
+  line-height: 1em;
+  }
