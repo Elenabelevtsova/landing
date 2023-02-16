@@ -20,3 +20,7 @@ $(".panel #one").hide(); // прячем все картики в панели
   $(".panel a").click(function () {
     $(this).prev("#one").slideToggle(300); // переключаем hide и show
   });
+
+  rotate.onclick = function(){
+    this.classList.toggle('viceversa')
+  }
