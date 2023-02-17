@@ -15,12 +15,13 @@ $(document).ready(function () {
   });
 });
 $(".panel #one").hide(); // прячем все картики в панели
-  $(".panel #one").first().show(); // показываем первую
-  $(".panel a #one").show(); // показываем все стрелочки
-  $(".panel a").click(function () {
-    $(this).prev("#one").slideToggle(300); // переключаем hide и show
-  });
+$(".panel #one").first().show(); // показываем первую
+$(".panel a #one").show(); // показываем все стрелочки
+$(".panel a").click(function () {
+  $(this).prev("#one").slideToggle(300); // переключаем hide и show
+  $(this).toggleClass("viceversa");
+});
 
-  rotate.onclick = function(){
-    this.classList.toggle('viceversa')
-  }
+// rotate.onclick = function(){
+//   this.classList.toggle('viceversa')
+// }

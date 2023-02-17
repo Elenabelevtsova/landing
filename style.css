@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 html {
   width: 100%;
@@ -15,24 +15,26 @@ html {
 }
 
 .container-fluid {
-  background: linear-gradient(180deg, #0066FE 0%, rgba(90, 159, 223, 0.633438) 53.13%, rgba(4, 145, 245, 0.308) 100%);
+  background: linear-gradient(180deg,
+      #0066fe 0%,
+      rgba(90, 159, 223, 0.633438) 53.13%,
+      rgba(4, 145, 245, 0.308) 100%);
   width: 100%;
 }
 
 .navbar {
-  padding-left: 40px;
+  /* padding-left: 40px; */
   padding-right: 0px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 22px;
   padding: 15px;
-
 }
 
 .nav-item {
@@ -48,10 +50,11 @@ html {
   font-weight: 900;
   line-height: 61px;
   letter-spacing: 0.05em;
-  color: #0557C8;
-  margin-top: 50px;
-  margin-left: 40px;
+  color: #0557c8;
+  margin-top: 20px;
+  /* margin-left: 40px; */
   min-width: 3vw;
+  font-size: 50px;
 }
 
 .under-main {
@@ -61,9 +64,9 @@ html {
   font-weight: 500;
   line-height: 31px;
   letter-spacing: 0em;
-  margin-top: 45px;
-  margin-left: 40px;
-  width: 80%;
+  margin-top: 35px;
+  /* margin-left: 40px; */
+  /* width: 80%; */
   min-width: 4vw;
 }
 
@@ -74,7 +77,7 @@ html {
 }
 
 .enroll {
-  min-width: 25vw;
+  /* min-width: 25vw; */
   height: 62px;
   border-radius: 20px;
   font-family: "Inter";
@@ -84,17 +87,20 @@ html {
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
-  background-color: #E72A7A;
+  background-color: #e72a7a;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.099);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.082),
+    0 6px 20px 0 rgba(0, 0, 0, 0.099);
   margin-left: 6px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* max-width: 330px; */
+  margin: 0;
 }
 
 .enroll:hover {
@@ -103,7 +109,7 @@ html {
 }
 
 .consult {
-  min-width: 25vw;
+  /* min-width: 25vw; */
   height: 62px;
   border-radius: 20px;
   font-family: "Inter";
@@ -113,19 +119,21 @@ html {
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
-  background-color: #72D3FF;
+  background-color: #72d3ff;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.099);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.082),
+    0 6px 20px 0 rgba(0, 0, 0, 0.099);
   margin-left: 6px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   line-height: 1em;
- 
+  /* max-width: 330px; */
+  margin: 0;
 }
 
 .consult:hover {
@@ -137,7 +145,7 @@ html {
   background-image: url(./images/back.png);
   width: 100%;
   margin-top: -180px;
-  
+  background-repeat: repeat-y;
   -moz-background-size: 100%;
   /* Firefox 3.6+ */
   -webkit-background-size: 100%;
@@ -158,13 +166,12 @@ html {
   backdrop-filter: blur(7.5px);
   /* Note: backdrop-filter has minimal browser support */
   box-shadow: 0 4px 14px 0 rgba(17, 117, 232, 0.429);
-
 }
 
 .inscription {
   margin-top: 20px;
   font-weight: 600;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   line-height: 50px;
   font-size: 22px;
@@ -179,7 +186,7 @@ p {
 }
 
 .paragraf {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -189,7 +196,6 @@ p {
 }
 
 .get-pink {
-  
   margin: 10px;
   max-width: 90%;
   height: 120px;
@@ -219,7 +225,7 @@ h3 {
   color: #fff;
   text-align: center;
   padding: 10px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 120%;
@@ -253,17 +259,51 @@ h3 {
 }
 
 .p-want {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;
-  font-size: 230%;
-  color: #FFFFFF;
+  font-size: 48px;
+  color: #ffffff;
   flex: none;
   order: 0;
   flex-grow: 0;
   text-align: center;
-  padding: 50px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.497);
+  padding: 30px 0 20px 0;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+}
+
+.block-n {
+  position: absolute;
+  margin-left: 2pc;
+  z-index: 3;
+
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+  font-family: "Inter";
+
+}
+
+.panel_img {
+  margin-top: -20px;
+  min-width: 82%;
+  max-width: 90%;
+  z-index: 2;
+  position: relative;
+}
+
+.panel_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  /* max-height: 42px;
+  min-height: 30px; */
+  color: #000000;
+  line-height: 1.5em;
+  /* margin-top: 6px; */
 }
 
 .vl {
@@ -274,12 +314,12 @@ h3 {
 }
 
 .footer-text {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 22px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: left;
   margin-left: 10px;
 }
@@ -296,13 +336,13 @@ h3 {
   /* Note: backdrop-filter has minimal browser support */
   box-shadow: 0 4px 14px 0 rgba(151, 165, 181, 0.519);
   left: 12%;
-  margin-top: -22%;
+  margin-top: -21%;
   width: 60%;
   max-width: 100%;
-  padding: 8px;
+  padding: 20px;
   z-index: 2;
   margin-left: 5%;
-  height: 9.8vw;
+  /* height: 9.8vw; */
 }
 
 .panel {
@@ -320,18 +360,16 @@ h3 {
 }
 
 .img-slide a {
-
-  transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);
+  transition: all 0.4s cubic-bezier(0.08, 1.09, 0.32, 1.275);
 }
 
 #slide:visited {
-
-  transition: all 4s cubic-bezier(0.080, 1.090, 0.320, 1.275);
+  transition: all 4s cubic-bezier(0.08, 1.09, 0.32, 1.275);
 }
 
 .main-one {
   margin-top: 10px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 90%;
@@ -342,8 +380,7 @@ h3 {
 }
 
 .one {
-
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 200;
   font-size: 80%;
@@ -353,9 +390,298 @@ h3 {
   margin-left: -20px;
   line-height: 1em;
 }
+
 #one {
   padding-left: 10%;
-} 
-.viceversa{
+}
+
+
+
+.arrow {
+  width: 15px;
+  margin-top: -10px;
+  transition: transform 0.7s ease;
+}
+
+.arrow_link {
+  float: right;
+  border: none;
+  background-color: #ffffff00;
+  margin-top: -10px;
+}
+
+.viceversa {
   transform: rotate(180deg);
+}
+
+.headline{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+}
+.color-headline{
+  background: linear-gradient(180deg, rgba(0, 240, 255, 1) 10%, rgba(3, 89, 255, 0.47) 89%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+@media screen and (max-width: 3000px) {
+  .slide-main {
+    padding: 10px;
+    width: 60%;
+    left: 12%;
+    margin-top: -170px;
+  }
+
+  .panel_text {
+    font-size: 20px;
+  }
+
+  .panel {
+    margin-top: 50px;
+  }
+
+  .block-n img {
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .bubble-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180%;
+    min-width: 100%;
+    margin-top: -20%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .slide-main {
+    padding: 10px;
+    width: 60%;
+    left: 12%;
+    margin-top: -150px;
+
+  }
+
+  .panel_text {
+    font-size: 20px;
+  }
+
+  .panel {
+    margin-top: 30px;
+  }
+
+  .block-n img {
+    width: 90%;
+  }
+
+  .bubble-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180%;
+    min-width: 100%;
+    margin-top: -30%;
+  }
+
+  .enroll {
+    font-size: 18px;
+  }
+
+  .consult {
+    line-height: 40px;
+    width: 110%;
+    font-size: 18px;
+  }
+
+  .vector {
+    width: 40px;
+  }
+  .icon{
+    margin-top: 20px;
+    
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .slide-main {
+    padding: 10px;
+    width: 80%;
+    left: 2%;
+    margin-top: -110px;
+  }
+
+  .panel_text {
+    font-size: 18px;
+  }
+
+  .panel {
+    margin-top: -30px;
+  }
+
+  .block-n img {
+    width: 80%;
+    margin-top: -15px;
+    margin-left: -10px;
+  }
+
+  .bubble-img-top {
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180%;
+    min-width: 100%;
+    margin-top: -27%;
+
+  }
+
+  .navbar-toggler {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .enroll {
+    font-size: 18px;
+    margin: 5px;
+  }
+
+  .consult {
+    line-height: 40px;
+    width: 99%;
+    font-size: 18px;
+    margin: 5px;
+  }
+
+  .vector {
+    width: 40px;
+  }
+
+  .qrcode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .icon{
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide-main {
+    padding: 5px;
+    width: 80%;
+    left: 2%;
+    margin-top: -70px;
+  }
+
+  .panel_text {
+    font-size: 10px;
+    height: 20px;
+  }
+
+  .panel {
+    margin-top: -20px;
+  }
+
+  .block-n img {
+    width: 40%;
+    margin-left: -15px;
+    margin-top: -45px;
+  }
+
+  .bubble-img-top {
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180%;
+    min-width: 100%;
+    margin-top: -30%;
+
+  }
+
+  .enroll {
+    margin: 5px;
+  }
+
+  .consult {
+    margin: 5px;
+  }
+  .icon{
+    margin-top: -50px;
+    text-align: center;
+  }
+  .logo-footer{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .number-img {
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  .number-img4 {
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .headline{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .slide-main {
+    padding: 5px;
+    width: 80%;
+    left: 2%;
+    margin-top: -50px;
+  }
+
+  .panel_text {
+    font-size: 7px;
+    height: 15px;
+  }
+
+  .panel {
+
+    margin-top: -30px;
+    font-size: 10px;
+  }
+
+  .block-n img {
+    width: 40%;
+    margin-left: -15px;
+    margin-top: -45px;
+  }
+
+  .bubble-img-top {
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180%;
+    min-width: 100%;
+    margin-top: -30%;
+
+  }
+
+  .enroll {
+    margin: 5px;
+    font-size: 18px;
+  }
+
+  .consult {
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1em;
+  }
+
+  .p-want {
+    font-size: 35px;
+  }
+  
 }
