@@ -490,12 +490,15 @@ h3 {
 
   .enroll {
     font-size: 18px;
+    margin: 15px;
   }
 
   .consult {
-    line-height: 40px;
+    line-height: 45px;
     width: 110%;
     font-size: 18px;
+    margin: 15px;
+    padding: 5px;
   }
 
   .vector {
@@ -548,14 +551,14 @@ h3 {
 
   .enroll {
     font-size: 18px;
-    margin: 5px;
+    margin: 15px;
   }
 
   .consult {
     line-height: 40px;
-    width: 99%;
+    width: 95%;
     font-size: 18px;
-    margin: 5px;
+    margin: 15px;
   }
 
   .vector {
@@ -608,11 +611,11 @@ h3 {
   }
 
   .enroll {
-    margin: 5px;
+    margin: 15px;
   }
 
   .consult {
-    margin: 5px;
+    margin: 15px;
   }
 
   .icon {
