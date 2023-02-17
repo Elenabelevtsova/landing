@@ -457,10 +457,19 @@ h3 {
     min-width: 100%;
     margin-top: -20%;
   }
+
   .bubble-footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+  .footer-text-center {
+    text-align: left;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    color: #ffffff;
   }
 }
 
@@ -514,10 +523,19 @@ h3 {
     margin-top: 20px;
 
   }
+
   .bubble-footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+  .footer-text-center {
+    text-align: left;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    color: #ffffff;
   }
 }
 
@@ -583,12 +601,24 @@ h3 {
   }
 
   .icon {
-    margin-top: -30px;
+    margin-top: -10px;
   }
+
   .bubble-footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+  .logo-footer {
+    text-align: center;
+  }
+  .footer-text-center {
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    color: #ffffff;
   }
 }
 
@@ -634,7 +664,7 @@ h3 {
   }
 
   .icon {
-    margin-top: -50px;
+    margin-top: -10px;
     text-align: center;
   }
 
@@ -658,14 +688,26 @@ h3 {
   .headline {
     font-size: 40px;
   }
+
   .bubble-footer {
     margin-left: auto;
     margin-right: auto;
     width: 150%;
   }
-  .qrcode{
+
+  .qrcode {
     padding: 10px;
   }
+
+  .footer-text-center {
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  
 }
 
 @media screen and (max-width: 430px) {
@@ -723,8 +765,17 @@ h3 {
   .p-want {
     font-size: 35px;
   }
-  .qrcode{
+
+  .qrcode {
     padding: 10px;
   }
 
+  .footer-text-center {
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    color: #ffffff;
+  }
 }
