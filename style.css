@@ -620,6 +620,9 @@ h3 {
     font-size: 22px;
     color: #ffffff;
   }
+  .footer-block{
+margin-left: auto;
+margin-right: auto;  }
 }
 
 @media screen and (max-width: 768px) {
@@ -707,7 +710,9 @@ h3 {
     font-size: 22px;
     color: #ffffff;
   }
-  
+  .footer-block{
+margin-right: auto;
+margin-left: auto;  }
 }
 
 @media screen and (max-width: 430px) {
@@ -777,5 +782,8 @@ h3 {
     font-weight: 800;
     font-size: 22px;
     color: #ffffff;
+  }
+  .footer-block{
+    text-align: left;
   }
 }
