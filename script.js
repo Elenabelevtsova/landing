@@ -22,6 +22,3 @@ $(".panel a").click(function () {
   $(this).toggleClass("viceversa");
 });
 
-// rotate.onclick = function(){
-//   this.classList.toggle('viceversa')
-// }

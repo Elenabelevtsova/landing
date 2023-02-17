@@ -414,18 +414,20 @@ h3 {
   transform: rotate(180deg);
 }
 
-.headline{
+.headline {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 900;
   font-size: 50px;
 }
-.color-headline{
+
+.color-headline {
   background: linear-gradient(180deg, rgba(0, 240, 255, 1) 10%, rgba(3, 89, 255, 0.47) 89%, #8AA9D6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
+
 @media screen and (max-width: 3000px) {
   .slide-main {
     padding: 10px;
@@ -499,9 +501,10 @@ h3 {
   .vector {
     width: 40px;
   }
-  .icon{
+
+  .icon {
     margin-top: 20px;
-    
+
   }
 }
 
@@ -565,7 +568,8 @@ h3 {
     margin-right: auto;
     margin-top: 10px;
   }
-  .icon{
+
+  .icon {
     margin-top: -30px;
   }
 }
@@ -610,15 +614,18 @@ h3 {
   .consult {
     margin: 5px;
   }
-  .icon{
+
+  .icon {
     margin-top: -50px;
     text-align: center;
   }
-  .logo-footer{
+
+  .logo-footer {
     display: block;
     margin-right: auto;
     margin-left: auto;
   }
+
   .number-img {
     width: 40px;
     margin-left: 10px;
@@ -629,7 +636,8 @@ h3 {
     margin-left: 10px;
     margin-top: 10px;
   }
-  .headline{
+
+  .headline {
     font-size: 40px;
   }
 }
@@ -683,5 +691,5 @@ h3 {
   .p-want {
     font-size: 35px;
   }
-  
+
 }
