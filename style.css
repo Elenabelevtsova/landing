@@ -737,7 +737,7 @@ margin-left: auto;  }
   .bubble-footer {
     margin-left: auto;
     margin-right: auto;
-    width: 240%;
+    width: 250%;
   }
 
   .block-n img {
@@ -758,13 +758,13 @@ margin-left: auto;  }
 
   .enroll {
     margin: 10px;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .consult {
     margin: 10px;
-    font-size: 18px;
-    line-height: 2.5em;
+    font-size: 15px;
+    line-height: 3em;
   }
 
   .p-want {
@@ -786,4 +786,5 @@ margin-left: auto;  }
   .footer-block{
     text-align: left;
   }
+
 }
