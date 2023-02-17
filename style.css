@@ -457,6 +457,11 @@ h3 {
     min-width: 100%;
     margin-top: -20%;
   }
+  .bubble-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -490,14 +495,14 @@ h3 {
 
   .enroll {
     font-size: 18px;
-    margin: 15px;
+    margin: 5px;
   }
 
   .consult {
     line-height: 45px;
     width: 110%;
     font-size: 18px;
-    margin: 15px;
+    margin: 5px;
     padding: 5px;
   }
 
@@ -508,6 +513,11 @@ h3 {
   .icon {
     margin-top: 20px;
 
+  }
+  .bubble-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -551,14 +561,14 @@ h3 {
 
   .enroll {
     font-size: 18px;
-    margin: 15px;
+    margin: 10px;
   }
 
   .consult {
-    line-height: 40px;
+    line-height: 3em;
     width: 95%;
     font-size: 18px;
-    margin: 15px;
+    margin: 10px;
   }
 
   .vector {
@@ -574,6 +584,11 @@ h3 {
 
   .icon {
     margin-top: -30px;
+  }
+  .bubble-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -611,11 +626,11 @@ h3 {
   }
 
   .enroll {
-    margin: 15px;
+    margin: 10px;
   }
 
   .consult {
-    margin: 15px;
+    margin: 10px;
   }
 
   .icon {
@@ -643,6 +658,14 @@ h3 {
   .headline {
     font-size: 40px;
   }
+  .bubble-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150%;
+  }
+  .qrcode{
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 430px) {
@@ -664,6 +687,12 @@ h3 {
     font-size: 10px;
   }
 
+  .bubble-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 240%;
+  }
+
   .block-n img {
     width: 40%;
     margin-left: -15px;
@@ -681,18 +710,21 @@ h3 {
   }
 
   .enroll {
-    margin: 5px;
+    margin: 10px;
     font-size: 18px;
   }
 
   .consult {
-    margin: 5px;
+    margin: 10px;
     font-size: 18px;
-    line-height: 1em;
+    line-height: 2.5em;
   }
 
   .p-want {
     font-size: 35px;
+  }
+  .qrcode{
+    padding: 10px;
   }
 
 }
