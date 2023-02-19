@@ -1021,7 +1021,7 @@ text-align: center;
     position: relative;
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 565px) {
   .slide-main {
     padding: 6px;
     width: 75%;
@@ -1049,11 +1049,16 @@ width: 100%;
     position: relative;
   }
   .panel {
+
     width: 70%;
-    margin-left: 12%;
+    margin-left: 58px;
     margin-right: auto;
-    margin-top: -30px;
-  }
+    margin-top: -5px;
+    font-size: 10px;
+}
+
+
+  
 
   .content {
     background-size: 150%;
@@ -1188,7 +1193,179 @@ width: 100%;
     position: relative;
   }
 }
-@media screen and (max-width: 443px) {
+@media screen and (max-width: 500px) {
+  .slide-main {
+    padding: 6px;
+    width: 75%;
+    height: 75px;
+    left: 6%;
+    margin-top: -22%;
+  }
+  .programm-of-course {
+    display: block;
+    width: 130%;
+    margin-top: -30px;
+    margin-left: -110px;
+    margin-right: auto;
+
+
+  }
+  .panel_text {
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+  .panel_img {
+    margin-top: -20px;
+width: 100%;
+    z-index: 2;
+    position: relative;
+  }
+  .panel {
+
+    width: 70%;
+    margin-left: 58px;
+    margin-right: auto;
+    margin-top: -25px;
+    font-size: 10px;
+}
+
+
+  
+
+  .content {
+    background-size: 150%;
+  }
+
+  .block-n img {
+    width: 60%;
+    margin-left: -5px;
+    margin-top: -30px;
+  }
+
+  .bubble-img-top {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 200%;
+    margin-top: -30%;
+
+  }
+  .one{
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  .main-one{
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  .enroll {
+    margin: 10px;
+  }
+
+  .consult {
+    margin: 10px;
+  }
+  .enroll-want {
+    font-size: 18px;
+
+    width: 80%;
+
+    margin: 5px;    
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .consult-want {
+    line-height: 45px;
+
+    width: 80%;
+
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;    
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vector {
+    width: 30px;
+    
+    padding-left: 10px;
+
+  }
+  .icon {
+    margin-top: -10px;
+    text-align: center;
+  }
+
+  .logo-footer {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .number-img {
+    width: 40px;
+    margin-left: -100px;
+  }
+
+  .number-img4 {
+    width: 40px;
+    margin-left: -100px;
+    margin-top: 10px;
+  }
+
+  .headline {
+    font-size: 40px;
+  }
+
+  .bubble-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 230%;
+  }
+
+  .qrcode {
+    padding: 10px;
+  }
+
+  .footer-text-center {
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  .footer-block {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .vector-top {
+    width: 30px;
+    padding-left: 10px;
+  }
+
+  .column {
+    max-width: 100%;
+    border: none;
+    height: 120%;
+    margin-left: 50px;
+    margin-top: -20px;
+    position: relative;
+  }
+  .column4 {
+    max-width: 100%;
+    border: none;
+    height: 120%;
+    margin-left: 50px;
+    margin-top: -150px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 473px) {
   .slide-main {
     padding: 5px;
     width: 70%;
@@ -1224,7 +1401,7 @@ width: 100%;
     width: 70%;
     margin-left: 38px;
     margin-right: auto;
-    margin-top: -20px;
+    margin-top: 20px;
     font-size: 10px;
   }
 
