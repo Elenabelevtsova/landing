@@ -441,12 +441,14 @@ h3 {
     padding: 10px;
     width: 60%;
     left: 10%;
-    margin-top: -180px;
+    margin-top: -210px;
   }
 
   .panel_text {
-    font-size: 26px;
-  }
+    font-size: 2em;
+    line-height: 1.5em;
+
+      }
 
   .panel {
     margin-top: 50px;
@@ -510,6 +512,14 @@ h3 {
     margin-left: 50px;
     margin-top: -140px;
     position: relative;
+  }
+  .one{
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  .main-one{
+    font-size: 1.2em;
+    line-height: 1.5em;
   }
 }
 
@@ -615,12 +625,11 @@ h3 {
     padding: 10px;
     width: 70%;
     left: 6%;
-    margin-top: -110px;
+    margin-top: -120px;
   }
 
   .panel_text {
-    font-size: 18px;
-  }
+    font-size: 1.4em;  }
 
   .panel {
     margin-top: -30px;
@@ -738,8 +747,8 @@ h3 {
 
   }
   .panel_text {
-    font-size: 22px;
-    height: 65px;
+    font-size: 1.5em;
+        height: 65px;
 
   }
 
@@ -848,27 +857,30 @@ h3 {
 }
 @media screen and (max-width: 575px) {
   .slide-main {
-    padding: 5px;
-    width: 70%;
+    padding: 6px;
+    width: 75%;
+    height: 70px;
     left: 6%;
-    margin-top: -100px;
+    margin-top: -20%;
   }
   .programm-of-course {
     display: block;
-    width: 140%;
+    width: 130%;
     margin-top: -30px;
-    margin-left: -130px;
+    margin-left: -110px;
     margin-right: auto;
 
 
   }
   .panel_text {
-    font-size: 16px;
-    height: 45px;
+    font-size: 1.2em;
+    line-height: 1.2em;
   }
 
   .panel {
-
+    width: 70%;
+    margin-left: 12%;
+    margin-right: auto;
     margin-top: -20px;
   }
 
@@ -975,13 +987,16 @@ h3 {
   .slide-main {
     padding: 5px;
     width: 70%;
+    height: 50px;
     left: 6%;
-    margin-top: -65px;
-      }
+    margin-top: -21%;      
+  }
 
   .panel_text {
-    font-size: 12px;
-    height: 30px;
+
+    font-size: 0.9em;
+    height: 35px;
+
   }
   .programm-of-course {
     display: block;
@@ -993,8 +1008,10 @@ h3 {
 
   }
   .panel {
-
-    margin-top: -30px;
+    width: 70%;
+    margin-left: 45px;
+    margin-right: auto;
+    margin-top: -20px;
     font-size: 10px;
   }
 
