@@ -519,7 +519,11 @@ h3 {
     width: 67%;
 
   }
-
+  .enroll {
+    font-size: 18px;
+    margin: 10px;
+    margin-top: 10px;
+  }
   .consult {
     line-height: 45px;
     width: 110%;
