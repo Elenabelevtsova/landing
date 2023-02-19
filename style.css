@@ -1504,7 +1504,15 @@ width: 100%;
     height: 18px;
 
   }
+  .programm-of-course {
+    display: block;
+    width: 140%;
+    margin-top: -30px;
+    margin-left: -100px;
+    margin-right: auto;
 
+
+  }
   .panel {
     margin-left: 12%;
     margin-top: -30px;
